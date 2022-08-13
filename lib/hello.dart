@@ -16,6 +16,7 @@ void main(){
       var input = stdin.readLineSync();
       var guess = int.tryParse(input!);
       if (guess == null){
+
         continue;
       }
       result = game.doGuess(guess);
